@@ -363,5 +363,8 @@ function formula() {
   else if (formula2 == "At9") {var name2 = "nonastatide";}
   else if (formula2 == "At10") {var name2 = "decastatide";}
   else {var name2 = 0;}
-  
+  // Answer
+  if (name1 == 0 && name2 == 0) {document.getElementById("name").innerHTML = "Error";}
+  else if (name1 == 0 || name2 == 0) {document.getElementById("name").innerHTML = "Error";}
+  else {document.getElementById("name").innerHTML = name1 + name2;      
 }
