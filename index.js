@@ -181,6 +181,7 @@ function formula() {
   else if (formula1 == "At8") {var name1 = "octastatine";}
   else if (formula1 == "At9") {var name1 = "nonastatine";}
   else if (formula1 == "At10") {var name1 = "decastatine";}
+  else {var name1 = "undefined";}
   document.getElementById("answer1").innerHTML = name1;
   // Formula 2
   var formula2 = document.getElementById("formula2").value;
@@ -364,5 +365,6 @@ function formula() {
   else if (formula2 == "At8") {var name2 = "octastatide";}
   else if (formula2 == "At9") {var name2 = "nonastatide";}
   else if (formula2 == "At10") {var name2 = "decastatide";}
+  else {var name1 = "undefined";}
   document.getElementById("answer2").innerHTML = name2;
 }
