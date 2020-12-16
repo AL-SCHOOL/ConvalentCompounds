@@ -182,7 +182,7 @@ function formula() {
   else if (formula1 == "At9") {var name1 = "nonastatine";}
   else if (formula1 == "At10") {var name1 = "decastatine";}
   else {var name1 = 0;}
-  if (name1 == 0) {document.getElementById("name").innerHTML = "Error";}
+  if (name1 == 0) {document.getElementById("answer1").innerHTML = "Error";}
   else {document.getElementById("answer1").innerHTML = name1;}
   if (formula1 == "H") {var name1 = "monohydride";}
   else if (formula2 == "H2") {var name2 = "dihydride";}
@@ -365,6 +365,6 @@ function formula() {
   else if (formula2 == "At9") {var name2 = "nonastatide";}
   else if (formula2 == "At10") {var name2 = "decastatide";}
   else {var name2 = 0;}
-  if (name2 == 0) {document.getElementById("name").innerHTML = "Error";}
+  if (name2 == 0) {document.getElementById("answer2").innerHTML = "Error";}
   else {document.getElementById("answer2").innerHTML = name2;}
 }
