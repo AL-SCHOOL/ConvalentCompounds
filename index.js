@@ -366,5 +366,5 @@ function formula() {
   // Answer
   if (name1 == 0 && name2 == 0) {document.getElementById("name").innerHTML = "Error";}
   else if (name1 == 0 || name2 == 0) {document.getElementById("name").innerHTML = "Error";}
-  else {document.getElementById("name").innerHTML = name1 + "" + name2;}
+  else {document.getElementById("name").innerHTML = name1 + " " + name2;}
 }
