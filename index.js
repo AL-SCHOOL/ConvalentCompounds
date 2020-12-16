@@ -365,6 +365,6 @@ function formula() {
   else if (formula2 == "At8") {var name2 = "octastatide";}
   else if (formula2 == "At9") {var name2 = "nonastatide";}
   else if (formula2 == "At10") {var name2 = "decastatide";}
-  else {var name1 = "error";}
+  else {var name2 = "error";}
   document.getElementById("answer2").innerHTML = name2;
 }
