@@ -1,6 +1,6 @@
 function formula() {
+  // Formula 1
   var formula1 = document.getElementById("formula1").value;
-  var formula2 = document.getElementById("formula2").value;
   if (formula1 == "H") {var name1 = "hydrogen";}
   else if (formula1 == "H2") {var name1 = "dihydrogen";}
   else if (formula1 == "H3") {var name1 = "trihydrogen";}
@@ -184,7 +184,9 @@ function formula() {
   else {var name1 = 0;}
   if (name1 == 0) {document.getElementById("answer1").innerHTML = "Error";}
   else {document.getElementById("answer1").innerHTML = name1;}
-  if (formula1 == "H") {var name1 = "monohydride";}
+  // Formula 2
+  var formula2 = document.getElementById("formula2").value;
+  if (formula2 == "H") {var name1 = "monohydride";}
   else if (formula2 == "H2") {var name2 = "dihydride";}
   else if (formula2 == "H3") {var name2 = "trihydride";}
   else if (formula2 == "H4") {var name2 = "tetrahydride";}
