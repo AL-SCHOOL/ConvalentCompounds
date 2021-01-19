@@ -23,9 +23,10 @@ body {
 #button {
   background-color: #ffffff;
   border: 2px solid black;
+  border-radius: 5px;
   height: 25px;
   width: 100px;
   cursor: pointer;
-  margin: 4px 2px;
+  margin: 5px;
   padding: 5px;
 }
