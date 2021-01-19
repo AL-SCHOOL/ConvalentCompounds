@@ -2,7 +2,7 @@ body {
   background-color: #b3b300;
 }
 
-.formula1 {
+#formula1 {
   background-color: #ffffff;
   border: 2px solid black;
   border-radius: 5px;
@@ -10,7 +10,7 @@ body {
   width: 100px;
 }
 
-.formula2 {
+#formula2 {
   background-color: #ffffff;
   border: 2px solid black;
   border-radius: 5px;
