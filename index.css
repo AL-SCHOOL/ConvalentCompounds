@@ -8,6 +8,7 @@ body {
   border-radius: 5px;
   height: 25px;
   width: 100px;
+  padding: 5px;
 }
 
 #formula2 {
@@ -16,6 +17,7 @@ body {
   border-radius: 5px;
   height: 25px;
   width: 100px;
+  padding: 5px;
 }
 
 .button {
@@ -23,4 +25,7 @@ body {
   border: 2px solid black;
   height: 25px;
   width: 100px;
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 5px;
 }
