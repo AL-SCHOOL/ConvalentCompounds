@@ -1,96 +1,96 @@
 function formula() {
   // Formula 1
   var formula1 = document.getElementById("formula1").value;
-  if (formula1 == "H") {var name1 = "hydrogen";}
-  else if (formula1 == "H2") {var name1 = "dihydrogen";}
-  else if (formula1 == "H3") {var name1 = "trihydrogen";}
-  else if (formula1 == "H4") {var name1 = "tetrahydrogen";}
-  else if (formula1 == "H5") {var name1 = "pentahydrogen";}
-  else if (formula1 == "H6") {var name1 = "hexahydrogen";}
-  else if (formula1 == "H7") {var name1 = "heptahydrogen";}
-  else if (formula1 == "H8") {var name1 = "octahydrogen";}
-  else if (formula1 == "H9") {var name1 = "nonahydrogen";}
-  else if (formula1 == "H10") {var name1 = "decahydrogen";}
-  else if (formula1 == "B") {var name1 = "boron";}
-  else if (formula1 == "B2") {var name1 = "diboron";}
-  else if (formula1 == "B3") {var name1 = "triboron";}
-  else if (formula1 == "B4") {var name1 = "tetraboron";}
-  else if (formula1 == "B5") {var name1 = "pentaboron";}
-  else if (formula1 == "B6") {var name1 = "hexaboron";}
-  else if (formula1 == "B7") {var name1 = "heptaboron";}
-  else if (formula1 == "B8") {var name1 = "octaboron";}
-  else if (formula1 == "B9") {var name1 = "nonaboron";}
-  else if (formula1 == "B10") {var name1 = "decaboron";}
-  else if (formula1 == "C") {var name1 = "carbon";}
-  else if (formula1 == "C2") {var name1 = "dicarbon";}
-  else if (formula1 == "C3") {var name1 = "tricarbon";}
-  else if (formula1 == "C4") {var name1 = "tetracarbon";}
-  else if (formula1 == "C5") {var name1 = "pentacarbon";}
-  else if (formula1 == "C6") {var name1 = "hexacarbon";}
-  else if (formula1 == "C7") {var name1 = "heptacarbon";}
-  else if (formula1 == "C8") {var name1 = "octacarbon";}
-  else if (formula1 == "C9") {var name1 = "nonacarbon";}
-  else if (formula1 == "C10") {var name1 = "decacarbon";}
-  else if (formula1 == "N") {var name1 = "nitrogen";}
-  else if (formula1 == "N2") {var name1 = "dinitrogen";}
-  else if (formula1 == "N3") {var name1 = "trinitrogen";}
-  else if (formula1 == "N4") {var name1 = "tetranitrogen";}
-  else if (formula1 == "N5") {var name1 = "pentanitrogen";}
-  else if (formula1 == "N6") {var name1 = "hexanitrogen";}
-  else if (formula1 == "N7") {var name1 = "heptanitrogen";}
-  else if (formula1 == "N8") {var name1 = "octanitrogen";}
-  else if (formula1 == "N9") {var name1 = "nonanitrogen";}
-  else if (formula1 == "N10") {var name1 = "decanitrogen";}
-  else if (formula1 == "O") {var name1 = "oxegen";}
-  else if (formula1 == "O2") {var name1 = "dioxegen";}
-  else if (formula1 == "O3") {var name1 = "trioxegen";}
-  else if (formula1 == "O4") {var name1 = "tetroxegen";}
-  else if (formula1 == "O5") {var name1 = "pentoxegen";}
-  else if (formula1 == "O6") {var name1 = "hexoxegen";}
-  else if (formula1 == "O7") {var name1 = "heptoxegen";}
-  else if (formula1 == "O8") {var name1 = "octoxegen";}
-  else if (formula1 == "O9") {var name1 = "nonoxegen";}
-  else if (formula1 == "O10") {var name1 = "decoxegen";}
-  else if (formula1 == "F") {var name1 = "fluorine";}
-  else if (formula1 == "F2") {var name1 = "difluorine";}
-  else if (formula1 == "F3") {var name1 = "trifluorine";}
-  else if (formula1 == "F4") {var name1 = "tetrafluorine";}
-  else if (formula1 == "F5") {var name1 = "pentafluorine";}
-  else if (formula1 == "F6") {var name1 = "hexafluorine";}
-  else if (formula1 == "F7") {var name1 = "heptafluorine";}
-  else if (formula1 == "F8") {var name1 = "octafluorine";}
-  else if (formula1 == "F9") {var name1 = "nonafluorine";}
-  else if (formula1 == "F10") {var name1 = "decafluorine";}
-  else if (formula1 == "Si") {var name1 = "silicon";}
-  else if (formula1 == "Si2") {var name1 = "disilicon";}
-  else if (formula1 == "Si3") {var name1 = "trisilicon";}
-  else if (formula1 == "Si4") {var name1 = "tetrasilicon";}
-  else if (formula1 == "Si5") {var name1 = "pentasilicon";}
-  else if (formula1 == "Si6") {var name1 = "hexasilicon";}
-  else if (formula1 == "Si7") {var name1 = "heptasilicon";}
-  else if (formula1 == "Si8") {var name1 = "octasilicon";}
-  else if (formula1 == "Si9") {var name1 = "nonasilicon";}
-  else if (formula1 == "Si10") {var name1 = "decasilicon";}
-  else if (formula1 == "P") {var name1 = "phosphorus";}
-  else if (formula1 == "P2") {var name1 = "diphosphorus";}
-  else if (formula1 == "P3") {var name1 = "triphosphorus";}
-  else if (formula1 == "P4") {var name1 = "tetraphosphorus";}
-  else if (formula1 == "P5") {var name1 = "pentaphosphorus";}
-  else if (formula1 == "P6") {var name1 = "hexaphosphorus";}
-  else if (formula1 == "P7") {var name1 = "heptaphosphorus";}
-  else if (formula1 == "P8") {var name1 = "octaphosphorus";}
-  else if (formula1 == "P9") {var name1 = "nonaphosphorus";}
-  else if (formula1 == "P10") {var name1 = "decaphosphorus";}
-  else if (formula1 == "S") {var name1 = "sulfur";}
-  else if (formula1 == "S2") {var name1 = "disulfur";}
-  else if (formula1 == "S3") {var name1 = "trisulfur";}
-  else if (formula1 == "S4") {var name1 = "tetrasulfur";}
-  else if (formula1 == "S5") {var name1 = "pentasulfur";}
-  else if (formula1 == "S6") {var name1 = "hexasulfur";}
-  else if (formula1 == "S7") {var name1 = "heptasulfur";}
-  else if (formula1 == "S8") {var name1 = "octasulfur";}
-  else if (formula1 == "S9") {var name1 = "nonasulfur";}
-  else if (formula1 == "S10") {var name1 = "decasulfur";}
+  if (formula1 == "H" || formula1 == "h") {var name1 = "hydrogen";}
+  else if (formula1 == "H2" || formula1 == "h2") {var name1 = "dihydrogen";}
+  else if (formula1 == "H3" || formula1 == "h3") {var name1 = "trihydrogen";}
+  else if (formula1 == "H4" || formula1 == "h4") {var name1 = "tetrahydrogen";}
+  else if (formula1 == "H5" || formula1 == "h5") {var name1 = "pentahydrogen";}
+  else if (formula1 == "H6" || formula1 == "h6") {var name1 = "hexahydrogen";}
+  else if (formula1 == "H7" || formula1 == "h7") {var name1 = "heptahydrogen";}
+  else if (formula1 == "H8" || formula1 == "h8") {var name1 = "octahydrogen";}
+  else if (formula1 == "H9" || formula1 == "h9") {var name1 = "nonahydrogen";}
+  else if (formula1 == "H10" || formula1 == "h10") {var name1 = "decahydrogen";}
+  else if (formula1 == "B" || formula1 == "b") {var name1 = "boron";}
+  else if (formula1 == "B2" || formula1 == "b2") {var name1 = "diboron";}
+  else if (formula1 == "B3" || formula1 == "b3") {var name1 = "triboron";}
+  else if (formula1 == "B4" || formula1 == "b4") {var name1 = "tetraboron";}
+  else if (formula1 == "B5" || formula1 == "b5") {var name1 = "pentaboron";}
+  else if (formula1 == "B6" || formula1 == "b6") {var name1 = "hexaboron";}
+  else if (formula1 == "B7" || formula1 == "b7") {var name1 = "heptaboron";}
+  else if (formula1 == "B8" || formula1 == "b8") {var name1 = "octaboron";}
+  else if (formula1 == "B9" || formula1 == "b9") {var name1 = "nonaboron";}
+  else if (formula1 == "B10" || formula1 == "b10") {var name1 = "decaboron";}
+  else if (formula1 == "C" || formula1 == "c") {var name1 = "carbon";}
+  else if (formula1 == "C2" || formula1 == "c2") {var name1 = "dicarbon";}
+  else if (formula1 == "C3" || formula1 == "c3") {var name1 = "tricarbon";}
+  else if (formula1 == "C4" || formula1 == "c4") {var name1 = "tetracarbon";}
+  else if (formula1 == "C5" || formula1 == "c5") {var name1 = "pentacarbon";}
+  else if (formula1 == "C6" || formula1 == "c6") {var name1 = "hexacarbon";}
+  else if (formula1 == "C7" || formula1 == "c7") {var name1 = "heptacarbon";}
+  else if (formula1 == "C8" || formula1 == "c8") {var name1 = "octacarbon";}
+  else if (formula1 == "C9" || formula1 == "c9") {var name1 = "nonacarbon";}
+  else if (formula1 == "C10" || formula1 == "c10") {var name1 = "decacarbon";}
+  else if (formula1 == "N" || formula1 == "n") {var name1 = "nitrogen";}
+  else if (formula1 == "N2" || formula1 == "n2") {var name1 = "dinitrogen";}
+  else if (formula1 == "N3" || formula1 == "n3") {var name1 = "trinitrogen";}
+  else if (formula1 == "N4" || formula1 == "n4") {var name1 = "tetranitrogen";}
+  else if (formula1 == "N5" || formula1 == "n5") {var name1 = "pentanitrogen";}
+  else if (formula1 == "N6" || formula1 == "n6") {var name1 = "hexanitrogen";}
+  else if (formula1 == "N7" || formula1 == "n7") {var name1 = "heptanitrogen";}
+  else if (formula1 == "N8" || formula1 == "n8") {var name1 = "octanitrogen";}
+  else if (formula1 == "N9" || formula1 == "n9") {var name1 = "nonanitrogen";}
+  else if (formula1 == "N10" || formula1 == "n10") {var name1 = "decanitrogen";}
+  else if (formula1 == "O" || formula1 == "o") {var name1 = "oxegen";}
+  else if (formula1 == "O2" || formula1 == "o2") {var name1 = "dioxegen";}
+  else if (formula1 == "O3" || formula1 == "o3") {var name1 = "trioxegen";}
+  else if (formula1 == "O4" || formula1 == "o4") {var name1 = "tetroxegen";}
+  else if (formula1 == "O5" || formula1 == "o5") {var name1 = "pentoxegen";}
+  else if (formula1 == "O6" || formula1 == "o6") {var name1 = "hexoxegen";}
+  else if (formula1 == "O7" || formula1 == "o7") {var name1 = "heptoxegen";}
+  else if (formula1 == "O8" || formula1 == "o8") {var name1 = "octoxegen";}
+  else if (formula1 == "O9" || formula1 == "o9") {var name1 = "nonoxegen";}
+  else if (formula1 == "O10" || formula1 == "o10") {var name1 = "decoxegen";}
+  else if (formula1 == "F" || formula1 == "f") {var name1 = "fluorine";}
+  else if (formula1 == "F2" || formula1 == "f2") {var name1 = "difluorine";}
+  else if (formula1 == "F3" || formula1 == "f3") {var name1 = "trifluorine";}
+  else if (formula1 == "F4" || formula1 == "f4") {var name1 = "tetrafluorine";}
+  else if (formula1 == "F5" || formula1 == "f5") {var name1 = "pentafluorine";}
+  else if (formula1 == "F6" || formula1 == "f6") {var name1 = "hexafluorine";}
+  else if (formula1 == "F7" || formula1 == "f7") {var name1 = "heptafluorine";}
+  else if (formula1 == "F8" || formula1 == "f8") {var name1 = "octafluorine";}
+  else if (formula1 == "F9" || formula1 == "f9") {var name1 = "nonafluorine";}
+  else if (formula1 == "F10" || formula1 == "f10") {var name1 = "decafluorine";}
+  else if (formula1 == "Si" || formula1 == "si") {var name1 = "silicon";}
+  else if (formula1 == "Si2" || formula1 == "si2") {var name1 = "disilicon";}
+  else if (formula1 == "Si3" || formula1 == "si3") {var name1 = "trisilicon";}
+  else if (formula1 == "Si4" || formula1 == "si4") {var name1 = "tetrasilicon";}
+  else if (formula1 == "Si5" || formula1 == "si5") {var name1 = "pentasilicon";}
+  else if (formula1 == "Si6" || formula1 == "si6") {var name1 = "hexasilicon";}
+  else if (formula1 == "Si7" || formula1 == "si7") {var name1 = "heptasilicon";}
+  else if (formula1 == "Si8" || formula1 == "si8") {var name1 = "octasilicon";}
+  else if (formula1 == "Si9" || formula1 == "si9") {var name1 = "nonasilicon";}
+  else if (formula1 == "Si10" || formula1 == "si10") {var name1 = "decasilicon";}
+  else if (formula1 == "P" || formula1 == "p") {var name1 = "phosphorus";}
+  else if (formula1 == "P2" || formula1 == "p2") {var name1 = "diphosphorus";}
+  else if (formula1 == "P3" || formula1 == "p3") {var name1 = "triphosphorus";}
+  else if (formula1 == "P4" || formula1 == "p4") {var name1 = "tetraphosphorus";}
+  else if (formula1 == "P5" || formula1 == "p5") {var name1 = "pentaphosphorus";}
+  else if (formula1 == "P6" || formula1 == "p6") {var name1 = "hexaphosphorus";}
+  else if (formula1 == "P7" || formula1 == "p7") {var name1 = "heptaphosphorus";}
+  else if (formula1 == "P8" || formula1 == "p8") {var name1 = "octaphosphorus";}
+  else if (formula1 == "P9" || formula1 == "p9") {var name1 = "nonaphosphorus";}
+  else if (formula1 == "P10" || formula1 == "p10") {var name1 = "decaphosphorus";}
+  else if (formula1 == "S" || formula1 == "s") {var name1 = "sulfur";}
+  else if (formula1 == "S2" || formula1 == "s2") {var name1 = "disulfur";}
+  else if (formula1 == "S3" || formula1 == "s3") {var name1 = "trisulfur";}
+  else if (formula1 == "S4" || formula1 == "s4") {var name1 = "tetrasulfur";}
+  else if (formula1 == "S5" || formula1 == "s5") {var name1 = "pentasulfur";}
+  else if (formula1 == "S6" || formula1 == "s6") {var name1 = "hexasulfur";}
+  else if (formula1 == "S7" || formula1 == "s7") {var name1 = "heptasulfur";}
+  else if (formula1 == "S8" || formula1 == "s8") {var name1 = "octasulfur";}
+  else if (formula1 == "S9" || formula1 == "s9") {var name1 = "nonasulfur";}
+  else if (formula1 == "S10" || formula1 == "s10") {var name1 = "decasulfur";}
   else if (formula1 == "Cl") {var name1 = "chlorine";}
   else if (formula1 == "Cl2") {var name1 = "dichlorine";}
   else if (formula1 == "Cl3") {var name1 = "trichlorine";}
