@@ -20,7 +20,7 @@ body {
   padding: 5px;
 }
 
-.button {
+#button {
   background-color: #ffffff;
   border: 2px solid black;
   height: 25px;
