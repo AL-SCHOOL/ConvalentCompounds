@@ -17,3 +17,10 @@ body {
   height: 25px;
   width: 100px;
 }
+
+.button {
+  background-color: #ffffff;
+  border: 2px solid black;
+  height: 25px;
+  width: 100px;
+}
