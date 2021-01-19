@@ -1,0 +1,19 @@
+body {
+  background-color: #b3b300;
+}
+
+.formula1 {
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+}
+
+.formula2 {
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+}
